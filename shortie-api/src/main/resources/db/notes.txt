@@ -1,0 +1,3 @@
+docker run -d -p 5555:5432 shortie-db:v0 postgres
+
+psql -U shortie -d shortiedb
